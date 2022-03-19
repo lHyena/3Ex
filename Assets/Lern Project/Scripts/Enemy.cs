@@ -28,7 +28,7 @@ namespace LernProject
 
             if (Vector3.Distance(transform.position, _player.transform.position) < 6)
             {
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetKeyDown(KeyCode.F))
                     Fire();
             }
         }

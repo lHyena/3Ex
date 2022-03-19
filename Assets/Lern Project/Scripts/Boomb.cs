@@ -7,7 +7,7 @@ namespace LernProject
 {
     public class Boomb : MonoBehaviour
     {
-        [SerializeField] private float _damage = 10f;
+        [SerializeField] private float _damage = 100000f;
 
         private void OnCollisionEnter(Collision collision) // точка соприкосновения
         {

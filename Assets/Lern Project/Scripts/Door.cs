@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LernProject
-{
+
     public class Door : MonoBehaviour
     {
         [SerializeField] private Transform _rotatePoint;
@@ -39,7 +38,7 @@ namespace LernProject
         }
 
     }
-}
+
 
     
 

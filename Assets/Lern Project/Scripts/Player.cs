@@ -28,9 +28,7 @@ namespace LernProject
 
             _direction.x = Input.GetAxis("Horizontal");// перемещение игрока
             _direction.z = Input.GetAxis("Vertical");// перемещение игрока
-
-            
-
+                        
         }
 
         private void FixedUpdate() // Движения лучше делать в FixeUpdate

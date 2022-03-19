@@ -17,7 +17,7 @@ public class Pickup : MonoBehaviour
        
     }
 
-    // Update is called once per frame
+    
     void OnTriggerExit(Collider other)
     {
         R.SetActive(false);
